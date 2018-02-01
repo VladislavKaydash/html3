@@ -1,0 +1,163 @@
+.page{
+margin: auto;
+height:950px;
+width:1060px; 
+box-shadow:0 0 5px rgba(0,0,0,0.5);	
+}
+
+.header{
+height:170px;	
+}
+
+img{
+margin-top:50px;
+margin-left:47px;	  
+}
+
+.goriz_menu {
+list-style: none; /*убираем маркеры списка*/
+margin: 0px; 
+margin-top: 35px;
+margin-left:47px;
+margin-right:47px;
+padding: 0; 
+background-image: linear-gradient(#5d5d5d,#454444); 
+height: 40px; 
+}
+
+.goriz_menu a {
+text-decoration: none; /*убираем подчеркивание текста ссылок*/
+background-image: linear-gradient(#5d5d5d,#454444); 
+color:#e6e6e6; 
+padding:0px; 
+padding-left:24px;
+padding-right:62px;
+font-family: Open Sans; 
+line-height:40px; /*ровняем меню по вертикали*/
+display: block; 
+}
+
+.goriz_menu a:hover {
+background-image: linear-gradient(#4a4a4a,#2f2f2f);
+border-left: 1px solid white; 
+border-right: 1px solid white; 
+}
+
+.goriz_menu li {
+float:left; /*Размещение списока горизонтально для реализации меню*/    
+}
+
+.vert_menu
+{
+border: 1px solid #c8c8c8;
+margin:0px;
+margin-top: 35px;
+margin-left:47px;
+padding: 0px;
+background-color: #ffffff;
+width:238px;
+list-style:none;
+float:left;
+}
+
+.vert_menu li {
+border-bottom:1px solid #c8c8c8;
+}
+
+.vert_menu li:last-child { 
+   border-bottom:none;
+   }
+	  
+.vert_menu a {
+background-color: #ffffff;
+color:#7a7878;
+padding:0px; 
+padding-left:25px;
+padding-bottom:12px;
+padding-top:12px;
+font-family: Open Sans;
+text-decoration: none;
+font-weight: bold;
+display: block;
+}
+	  
+.vert_menu a:hover {
+background-color: #f9f9f9;
+padding-left:37px;
+}
+
+.bicycle{
+margin:0px;
+width:678px;
+height:400px;
+margin-top: 35px;
+margin-left:43px;
+padding: 0px;
+border: 1px solid #c8c8c8;
+float:left;	
+}
+
+.pict_bicycle{
+text-align:center;	
+}
+
+.text_bic
+{
+float:left;
+margin:0px;
+margin-top: 30px;
+margin-left:330px;
+margin-right:47px;
+padding:0px;
+padding-top:15px;
+padding-left:22px;	
+padding-right:22px;
+font-family: Open Sans;
+}
+
+.foot_menu {
+float:left;
+list-style: none; 
+margin: 0px; 
+margin-top: 50px;
+margin-left:47px;
+margin-right:47px;
+padding: 0; 
+background:#e1e1e1; 
+height: 40px; 
+width:967px;
+}
+
+.foot_menu a {
+text-decoration: none; 
+background:#e1e1e1; 
+color:#2c2c2c; 
+padding:0px; 
+padding-left:24px;
+padding-right:62px;
+font-family: Open Sans; 
+line-height:40px; 
+display: block; 
+}
+
+.foot_menu li:last-child {
+text-decoration: none; 
+background:#e1e1e1; 
+color:#2c2c2c; 
+padding:0px; 
+
+padding-left:223px;
+font-family: Open Sans; 
+line-height:40px; 
+ 
+}
+
+.foot_menu a:hover {
+text-decoration:underline;
+}
+
+.foot_menu li {
+float:left;    
+}
+
+
